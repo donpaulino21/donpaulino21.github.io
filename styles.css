@@ -1,0 +1,133 @@
+/* Donovan Paulino Resume - styles.css */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+/* Main container box */
+.container {
+  background-color: #fff;
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 3px solid #ccc;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.job-title {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin: 10px auto;
+  width: 60%;
+  border: 0;
+  height: 1px;
+  background: #ccc;
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #222;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 15px;
+  color: #333;
+}
+h3 {
+  color: #0073e6; /* A nice demo-style blue */
+  font-size: 1.1rem;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+a {
+  color: #0073e6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004a99;
+  text-decoration: underline;
+}
+.skills-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #444;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('background.jpg'); /* Replace with your file name */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
