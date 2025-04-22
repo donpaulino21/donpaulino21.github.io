@@ -131,3 +131,18 @@ body {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
 }
+.flex-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.flex-skills span {
+  padding: 8px 14px;
+  background-color: #e3f2fd;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
